@@ -1,0 +1,21 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  height: 40px;
+  background-color: #C4A484;
+  position: fixed;
+  width: calc(100% - 56px);
+  top: 0;
+
+
+  .logo{
+    color: purple;
+    font-size: 30px;
+    font-family: Cursive;
+  }
+  .cart{
+    cursor: pointer;
+  }
+}

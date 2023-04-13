@@ -1,0 +1,34 @@
+.container{
+  border: 1px solid #D5D8DC ;
+  max-width: 300px;
+  margin: auto;
+  padding-bottom: 20px;
+
+  img{
+    width: 100%;
+    height: 75%;
+  }
+  .price{
+    color: grey;
+    font-size: 16px;
+  }
+  .cartBtn{
+    padding: 10px 12px;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #D5D8DC ;
+    cursor: pointer;
+  }
+
+  &:hover{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transform: scale(1.05);
+
+      .cartBtn{
+        color: white;
+        background-color:#D5D8DC;
+        border: 1px solid white ;
+      }
+    }
+}
